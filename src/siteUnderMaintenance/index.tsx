@@ -11,6 +11,9 @@ const SiteUnderMaintenance: React.FC = () => {
             <p>
               Site under maintenance....
             </p>
+            <p>
+              TypeScript
+            </p>
           </header>
         </div>
   )
