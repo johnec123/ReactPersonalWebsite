@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const GetInTouch: React.FC = () => {
-  return (
-    <div>GetInTouch</div>
-  )
-}
+  return <div>Get In Touch</div>;
+};
 
-export default GetInTouch
+export default GetInTouch;
