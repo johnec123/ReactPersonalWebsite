@@ -1,0 +1,30 @@
+.layout-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100vh;
+}
+
+.layout-wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.layout-navBar {
+  background-color: red;
+}
+
+.layout-sideBar {
+  background-color: blue;
+}
+
+.layout-mainContent {
+  background-color: green;
+}
+
+.layout-footer {
+  background-color: yellow;
+}
+
+.layout-aside {
+  flex: 1 0 0;
+}
