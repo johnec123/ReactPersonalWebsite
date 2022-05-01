@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
-import Home from './main/pages/home';
+import React from "react";
+import "./App.css";
+import Layout from "./main/components/layout";
 
 function App() {
   return (
-    <Home/>
+    <>
+      <Layout></Layout>
+    </>
   );
 }
 

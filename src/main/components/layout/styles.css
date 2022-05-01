@@ -1,0 +1,33 @@
+.layout-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 100vh;
+}
+
+.layout-wrapper > * {
+  flex: 1 100%;
+}
+
+.layout-rightSide {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-rightSide > * {
+  padding: 10px;
+}
+
+.layout-sideBar {
+  height: 100vh;
+  max-width: 100px;
+  display: flex;
+}
+
+.layout-mainContent {
+  flex-grow: 1;
+}
+
+.layout-aside {
+  flex: 1 0 0;
+}
