@@ -1,22 +1,12 @@
 import "./styles.css";
 
-import {
-  GitHub,
-  Instagram,
-  LinkedIn,
-  Twitter,
-  YouTube,
-} from "@mui/icons-material";
 import React from "react";
+import SocialLinks from "../../socialLinks";
 
 const SideBar: React.FC = () => {
   return (
     <div className="sideBar">
-      <LinkedIn />
-      <Instagram />
-      <GitHub />
-      <Twitter />
-      <YouTube />
+      <SocialLinks />
     </div>
   );
 };
