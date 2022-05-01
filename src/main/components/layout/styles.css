@@ -15,6 +15,7 @@
 
 .layout-sideBar {
   background-color: blue;
+  max-width: 100px;
 }
 
 .layout-mainContent {
@@ -27,4 +28,5 @@
 
 .layout-aside {
   flex: 1 0 0;
+  min-height: 500px;
 }

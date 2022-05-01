@@ -6,18 +6,13 @@ const NavBar: React.FC = () => {
     <div>
       <div>NavBar</div>
       <nav>
-        <li>
-          <Link to="/">John.</Link>
-        </li>
-        <li>
-          <Link to="/work">Work.</Link>
-        </li>
-        <li>
-          <Link to="/me">Me.</Link>
-        </li>
-        <li>
-          <Link to="/get-in-touch">Get In Touch.</Link>
-        </li>
+        <Link to="/">John.</Link>
+
+        <Link to="/work">Work.</Link>
+
+        <Link to="/me">Me.</Link>
+
+        <Link to="/get-in-touch">Get In Touch.</Link>
       </nav>
     </div>
   );
