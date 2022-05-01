@@ -14,8 +14,8 @@
 }
 
 .layout-sideBar {
-  background-color: blue;
   max-width: 100px;
+  display: flex;
 }
 
 .layout-mainContent {
