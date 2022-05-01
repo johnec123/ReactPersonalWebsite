@@ -19,17 +19,13 @@
 }
 
 .layout-sideBar {
+  height: 100vh;
   max-width: 100px;
   display: flex;
-  padding: 10px;
 }
 
 .layout-mainContent {
-  background-color: green;
   flex-grow: 1;
-}
-
-.layout-footer {
 }
 
 .layout-aside {
