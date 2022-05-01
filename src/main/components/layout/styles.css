@@ -5,21 +5,28 @@
 }
 
 .layout-wrapper > * {
-  padding: 10px;
   flex: 1 100%;
 }
 
-.layout-navBar {
-  background-color: red;
+.layout-rightSide {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-rightSide > * {
+  padding: 10px;
 }
 
 .layout-sideBar {
   max-width: 100px;
   display: flex;
+  padding: 10px;
 }
 
 .layout-mainContent {
   background-color: green;
+  flex-grow: 1;
 }
 
 .layout-footer {
@@ -28,5 +35,4 @@
 
 .layout-aside {
   flex: 1 0 0;
-  min-height: 500px;
 }

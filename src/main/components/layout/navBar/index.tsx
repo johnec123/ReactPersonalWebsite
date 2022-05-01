@@ -1,20 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import NavButton from "../../navButton";
 
 const NavBar: React.FC = () => {
   return (
-    <div>
-      <div>NavBar</div>
-      <nav>
-        <Link to="/">John.</Link>
-
-        <Link to="/work">Work.</Link>
-
-        <Link to="/me">Me.</Link>
-
-        <Link to="/get-in-touch">Get In Touch.</Link>
-      </nav>
-    </div>
+    <nav>
+      <NavButton linkTo="/" buttonText="John." />
+      <NavButton linkTo="work" buttonText="Work" />
+      <NavButton linkTo="me" buttonText="Me." />
+      <NavButton linkTo="get-in-touch" buttonText="Get In Touch." />
+    </nav>
   );
 };
 
