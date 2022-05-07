@@ -1,0 +1,9 @@
+.getInTouch-aside {
+  width: 50%;
+}
+
+.getInTouch-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
