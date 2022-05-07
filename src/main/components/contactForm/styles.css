@@ -1,7 +1,5 @@
-input {
-  width: 600px;
-}
-textarea {
-  height: 10em;
-  width: 600px;
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
