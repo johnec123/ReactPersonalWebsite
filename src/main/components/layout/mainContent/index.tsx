@@ -5,6 +5,7 @@ import Home from "../../../pages/home";
 import Me from "../../../pages/me";
 import Work from "../../../pages/work";
 import FirstWebsite from "../../firstWebsite";
+import NewProjectTemplate from "../../newProjectTemplate";
 
 const MainContent: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const MainContent: React.FC = () => {
       <Route path="me" element={<Me />} />
       <Route path="get-in-touch" element={<GetInTouch />} />
       <Route path="work/first-website" element={<FirstWebsite />} />
+      <Route path="work/new-project" element={<NewProjectTemplate />} />
     </Routes>
   );
 };
