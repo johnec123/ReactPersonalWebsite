@@ -1,0 +1,16 @@
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.cardWriting {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+}
+
+.cardBlock {
+  display: flex;
+  margin: 40px;
+}

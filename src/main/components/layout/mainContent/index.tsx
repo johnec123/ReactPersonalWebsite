@@ -8,7 +8,6 @@ import Work from "../../../pages/work";
 export interface MainContentProps {}
 
 const MainContent: React.FC<MainContentProps> = () => {
-  console.log("test");
   return (
     <Routes>
       <Route path="/" element={<Home />}></Route>

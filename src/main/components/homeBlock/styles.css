@@ -1,0 +1,22 @@
+img {
+  border-radius: 10%;
+  max-width: 40%;
+  height: 40%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.homeBlock {
+  display: flex;
+  margin: 40px;
+  align-items: center;
+}
+
+.header {
+  font-size: 70px;
+}
+
+.body {
+  font-size: 20px;
+}
