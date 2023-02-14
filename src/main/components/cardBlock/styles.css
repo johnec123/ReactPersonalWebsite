@@ -1,7 +1,7 @@
 .cardContent {
   display: flex;
   flex-direction: row;
-  padding: 40px;
+  margin: 40px;
 }
 
 .cardWriting {
