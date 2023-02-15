@@ -1,15 +1,17 @@
+import "./styles.css";
+
 import React from "react";
-import HomeBlock from "../../components/homeBlock";
+import CardBlock from "../../components/cardBlock";
 import personalPic from "../../../assets/images/Personal.jpg";
 
 const Home: React.FC = () => {
   return (
-    <div className="me-wrapper">
-      <HomeBlock
+    <div className="me-wrapper homeBlock">
+      <CardBlock
         headerText="Hey, Im John"
         bodyText="A Full Stack Software Engineer with a passion for sports"
         image={personalPic}
-      ></HomeBlock>
+      ></CardBlock>
     </div>
   );
 };

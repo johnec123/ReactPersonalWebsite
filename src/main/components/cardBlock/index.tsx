@@ -1,6 +1,5 @@
 import "./styles.css";
 
-import { Card } from "@mui/material";
 import React from "react";
 
 export interface CardBlockProps {
@@ -15,15 +14,15 @@ const CardBlock: React.FC<CardBlockProps> = ({
   image,
 }) => {
   return (
-    <Card variant="outlined" className="cardBlock">
+    <div className="cardBlock">
+      {image && <img src={image} alt="missing"></img>}
       <div className="cardContent">
         <div className="cardWriting">
-          <div>{headerText}</div>
-          <div>{bodyText}</div>
+          <div className="header">{headerText}</div>
+          <div className="body">{bodyText}</div>
         </div>
-        {image && <img src={image} alt="missing"></img>}
       </div>
-    </Card>
+    </div>
   );
 };
 
