@@ -14,7 +14,7 @@ const Me: React.FC = () => {
         headerText="How I got where we are now"
         bodyText="I never thought I would end up as a full-stack engineer. 
         My journey started with a passion for problem-solving, but I had no idea what I wanted 
-        to do with it. I would of been the 'Lego Kid' growing up, this along with living on a dairy farm.
+        to do with it. I would of been the 'Lego Kid' growing up, this along with living on a dairy farm led me to study Engineering in university. It was not all plain sailing from there as I found university tough 
         
         My journey as a full-stack engineer has been a challenging but rewarding one. I'm constantly pushing myself to learn new skills and stay up-to-date with the latest technologies. I believe that a strong work ethic, a passion for learning, and a commitment to excellence are the keys to success in this field.
 
@@ -26,22 +26,26 @@ const Me: React.FC = () => {
       <CardBlock
         headerText="Random fun facts"
         bodyText={
-          <ul>
-            <li>I'm an avid traveler and have visited over 20 countries.</li>
-            <li>
-              I love reading, and my favorite book from 2022 is "Greenlights" by
-              Matthew McConaughey
-            </li>
-            <li>I'm a DIY enthusiast and love working on personal projects</li>
-            <li>
-              I'm a huge fan of Gaelic football and have been playing in my
-              local club since I was a child.
-            </li>
-            <li>
-              I'm a passionate crossfitter and have been hitting the box for the
-              past 5 years.
-            </li>
-          </ul>
+          <div className="funFacts">
+            <ul>
+              <li>I'm an avid traveler and have visited over 20 countries.</li>
+              <li>
+                I love reading, and my favorite book from 2022 is "Greenlights"
+                by Matthew McConaughey
+              </li>
+              <li>
+                I'm a DIY enthusiast and love working on personal projects
+              </li>
+              <li>
+                I'm a huge fan of Gaelic football and have been playing in my
+                local club since I was a child.
+              </li>
+              <li>
+                I'm a passionate crossfitter and have been hitting the box for
+                the past 5 years.
+              </li>
+            </ul>
+          </div>
         }
         image={hikePic}
         imageFirst={true}
@@ -82,7 +86,7 @@ const Me: React.FC = () => {
       <CardBlock
         headerText="Skills"
         bodyText={
-          <div>
+          <div className="skills">
             <ul>
               <li>
                 Front-end development: HTML, CSS, JavaScript, React, Angular
