@@ -9,7 +9,7 @@ const Home: React.FC = () => {
     <div className="me-wrapper homeBlock">
       <CardBlock
         headerText="Hey, Im John"
-        bodyText="A Full Stack Software Engineer with a passion for sports"
+        bodyText="A software engineer with a passion for creating elegant solutions to complex problems."
         image={personalPic}
         imageFirst={true}
       ></CardBlock>
