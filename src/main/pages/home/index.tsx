@@ -11,6 +11,7 @@ const Home: React.FC = () => {
         headerText="Hey, Im John"
         bodyText="A Full Stack Software Engineer with a passion for sports"
         image={personalPic}
+        imageFirst={true}
       ></CardBlock>
     </div>
   );

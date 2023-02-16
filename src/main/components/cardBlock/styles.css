@@ -1,6 +1,8 @@
 img {
   border-radius: 10%;
-  max-width: 40%;
+  max-height: 80vh;
+  min-height: 60vh;
+  margin-bottom: 40px;
   height: 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -8,6 +10,7 @@ img {
 .cardContent {
   display: flex;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 .cardBlock {
