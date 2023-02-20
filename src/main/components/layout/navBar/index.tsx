@@ -7,7 +7,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="navBar-wrapper">
       <div className="navBar-leftSide">
-        <NavButton linkTo="/" buttonText="John." />
+        <NavButton linkTo="/" buttonText="Home." />
       </div>
       <div className="navBar-rightSide">
         <NavButton linkTo="work" buttonText="Work." />
