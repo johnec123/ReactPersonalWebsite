@@ -40,4 +40,8 @@ img {
   img {
     max-width: 80vw;
   }
+
+  .header {
+    font-size: 40px;
+  }
 }
