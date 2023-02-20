@@ -1,6 +1,6 @@
 img {
   border-radius: 10%;
-  max-height: 80vh;
+  max-height: 60vh;
   min-height: 60vh;
   margin-bottom: 40px;
   height: 40%;
@@ -15,7 +15,7 @@ img {
 
 .cardBlock {
   display: flex;
-  margin: 40px;
+  padding: 80px;
   align-items: center;
 }
 
