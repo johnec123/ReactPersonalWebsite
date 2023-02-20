@@ -6,7 +6,7 @@ import personalPic from "../../../assets/images/Personal.jpg";
 
 const Home: React.FC = () => {
   return (
-    <div className="me-wrapper homeBlock">
+    <div className="homeBlock">
       <CardBlock
         headerText="Hey, Im John"
         bodyText="A software engineer with a passion for creating elegant solutions to complex problems."

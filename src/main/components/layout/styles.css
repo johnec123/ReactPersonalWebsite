@@ -33,3 +33,30 @@
 .layout-aside {
   flex: 1 0 0;
 }
+
+@media screen and (max-width: 768px) {
+  .layout-sideBar {
+    display: none;
+  }
+
+  .layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .layout-rightSide > * {
+    padding: 10px;
+  }
+
+  .layout-mainContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layout-aside {
+    flex: 1 0 0;
+  }
+}
