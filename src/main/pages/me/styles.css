@@ -10,22 +10,22 @@
 }
 
 ul {
-  list-style: none; /* Removes default bullet points */
-  padding: 0; /* Removes default padding */
-  margin: 0; /* Removes default margin */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-  position: relative; /* Allows for pseudo-element positioning */
-  margin-bottom: 10px; /* Adds margin between list items */
-  padding-left: 20px; /* Adds padding to the left of each list item */
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 li::before {
-  content: "\2022"; /* Unicode character for a bullet point */
-  position: absolute; /* Positions the bullet point in relation to the list item */
-  left: 0; /* Positions the bullet point to the left of the list item */
-  color: #000; /* Sets the color of the bullet point */
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #000;
 }
 
 .funFacts li::before {
