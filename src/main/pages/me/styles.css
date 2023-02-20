@@ -35,3 +35,13 @@ li::before {
 .skills li::before {
   content: "\203A";
 }
+
+.me-wrapper :nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .me-wrapper :nth-child(odd) {
+    flex-direction: column;
+  }
+}

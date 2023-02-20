@@ -14,9 +14,9 @@ img {
 
 .cardBlock {
   display: flex;
-  flex-direction: row;
   padding: 80px;
   align-items: center;
+  flex-direction: row;
 }
 
 .header {
@@ -25,6 +25,10 @@ img {
 
 .body {
   font-size: 20px;
+}
+
+.cardBlock div:nth-child(odd) {
+  flex-direction: row-reverse;
 }
 
 @media screen and (max-width: 768px) {

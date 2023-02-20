@@ -21,7 +21,6 @@ const Me: React.FC = () => {
         Whether you're a fellow developer, a potential client, or just someone interested in technology, I'm excited to share my experiences and knowledge with you. Welcome to my website!
         "
         image={cartoonPic}
-        imageFirst={false}
       />
       <CardBlock
         headerText="Random fun facts"
@@ -48,7 +47,6 @@ const Me: React.FC = () => {
           </div>
         }
         image={hikePic}
-        imageFirst={true}
       />
       <CardBlock
         headerText="Core values"
@@ -81,7 +79,6 @@ const Me: React.FC = () => {
           </ul>
         }
         image={trophyPic}
-        imageFirst={false}
       />
       <CardBlock
         headerText="Skills"
@@ -116,7 +113,6 @@ const Me: React.FC = () => {
           </div>
         }
         image={graduationPic}
-        imageFirst={true}
       />
     </div>
   );
