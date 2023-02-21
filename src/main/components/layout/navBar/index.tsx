@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
         <NavButton linkTo="/" buttonText="Home." />
       </div>
       <div className="navBar-rightSide">
-        <NavButton linkTo="work" buttonText="Work." />
+        <NavButton linkTo="projects" buttonText="Projects." />
         <NavButton linkTo="me" buttonText="Me." />
         <NavButton linkTo="get-in-touch" buttonText="Get In Touch." />
       </div>

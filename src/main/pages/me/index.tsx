@@ -9,6 +9,7 @@ import cartoonPic from "../../../assets/images/Cartoon.png";
 
 const Me: React.FC = () => {
   return (
+    //todo: update to map data
     <div className="me-wrapper">
       <CardBlock
         headerText="How I got where we are now"
