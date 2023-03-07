@@ -1,7 +1,11 @@
 import React from "react";
 
 const OrdnanceSurvey: React.FC = () => {
-  return <div>OrdnanceSurvey</div>;
+  return (
+    <div>
+      <div>OrdnanceSurvey</div>
+    </div>
+  );
 };
 
 export default OrdnanceSurvey;

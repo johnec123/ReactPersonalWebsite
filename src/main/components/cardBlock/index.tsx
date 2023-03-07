@@ -14,7 +14,7 @@ const CardBlock: React.FC<CardBlockProps> = ({
   image,
 }) => {
   return (
-    <div className="cardBlock">
+    <div className="cardBlock image">
       <div>{image && <img src={image} alt="missing"></img>}</div>
       <div className="cardContent">
         <div className="cardWriting">

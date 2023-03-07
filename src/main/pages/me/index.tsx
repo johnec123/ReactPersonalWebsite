@@ -10,16 +10,21 @@ import cartoonPic from "../../../assets/images/Cartoon.png";
 const Me: React.FC = () => {
   return (
     //todo: update to map data
-    <div className="me-wrapper">
+    <div className="me-wrapper list listItem">
       <CardBlock
         headerText="How I got where we are now"
-        bodyText="I never thought I would end up as a full-stack engineer. 
-        My journey started with a passion for problem-solving, but I had no idea what I wanted 
-        to do with it. I would of been the 'Lego Kid' growing up, this along with living on a dairy farm led me to study Engineering in university. It was not all plain sailing from there as I found university tough 
-        
-        My journey as a full-stack engineer has been a challenging but rewarding one. I'm constantly pushing myself to learn new skills and stay up-to-date with the latest technologies. I believe that a strong work ethic, a passion for learning, and a commitment to excellence are the keys to success in this field.
-
-        Whether you're a fellow developer, a potential client, or just someone interested in technology, I'm excited to share my experiences and knowledge with you. Welcome to my website!
+        bodyText="My journey started with a passion for problem-solving. Growing up I was the 'Lego Kid', 
+        always building something new. At the time, what I didn't realise was that this was the beginning 
+        of my path to engineering. This passion, along with growing up on a dairy farm, having different 
+        tasks to problem solve daily, led me to study 
+        Engineering in university, but the journey was not all plain sailing. I found university tough. 
+        Persevering through it taught me that hard work really does pay off. My journey as a full-stack 
+        engineer has been a challenging but rewarding one. I'm constantly pushing myself to learn new skills 
+        and stay up-to-date with the latest technologies. I believe that a strong work ethic, a passion 
+        for learning, and a commitment to excellence are the keys to success in this field. Whether 
+        you're a fellow developer, a potential client/employer, or just someone interested in technology, 
+        I'm excited to share my experiences and knowledge with you. 
+        Welcome to my website!
         "
         image={cartoonPic}
       />

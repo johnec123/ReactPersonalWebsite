@@ -1,13 +1,63 @@
+import {
+  IconButton,
+  ImageList,
+  ImageListItem,
+  ImageListItemBar,
+} from "@mui/material";
 import React from "react";
-import NavButton from "../../components/navButton";
+import firstWebsitePic from "../../../assets/images/firstWebsite.png";
+import ordnanceSurveyPic from "../../../assets/images/OrdnanceSurvey.jpg";
+import newWebsitePic from "../../../assets/images/NewWebsite.png";
+import { ArrowForwardIos } from "@mui/icons-material";
+import { Link } from "react-router-dom";
+
+const itemData = [
+  {
+    title: "First Website",
+    img: firstWebsitePic,
+    linkTo: "first-website",
+  },
+  {
+    title: "Ordnance Survey App",
+    img: ordnanceSurveyPic,
+    linkTo: "ordnance-survey",
+  },
+  {
+    title: "Updated Website",
+    img: newWebsitePic,
+    linkTo: "new-website",
+  },
+];
 
 const Projects: React.FC = () => {
   return (
     <div>
-      <NavButton linkTo="first-website" buttonText="First Website." />
-      <NavButton linkTo="new-website" buttonText="New Website." />
-      <NavButton linkTo="insta-poster" buttonText="Insta Poster." />
-      <NavButton linkTo="ordnance-survey" buttonText="Ordnance Survey." />
+      <ImageList variant="standard" cols={3} gap={0}>
+        {itemData.map((item: any) => (
+          <ImageListItem key={item.img}>
+            <img
+              src={`${item.img}?w=248&fit=crop&auto=format`}
+              srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              alt={item.title}
+              loading="lazy"
+            />
+            <ImageListItemBar
+              position="bottom"
+              title={item.title}
+              actionIcon={
+                <IconButton
+                  sx={{ color: "rgba(255, 255, 255, 0.54)" }}
+                  aria-label={`info about ${item.title}`}
+                  component={Link}
+                  to={item.linkTo}
+                >
+                  <ArrowForwardIos />
+                </IconButton>
+              }
+            />
+          </ImageListItem>
+        ))}
+      </ImageList>
     </div>
   );
 };

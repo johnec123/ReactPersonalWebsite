@@ -9,19 +9,19 @@
   max-height: 70vh;
 }
 
-ul {
+.list ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-li {
+.listItem li {
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
 }
 
-li::before {
+.listItem li::before {
   content: "\2022";
   position: absolute;
   left: 0;
