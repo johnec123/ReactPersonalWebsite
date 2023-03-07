@@ -5,7 +5,7 @@ import {
   ImageListItemBar,
 } from "@mui/material";
 import React from "react";
-import firstWebsitePic from "../../../assets/images/firstWebsite.png";
+import firstWebsitePic from "../../../assets/images/FirstWebsite.png";
 import ordnanceSurveyPic from "../../../assets/images/OrdnanceSurvey.jpg";
 import newWebsitePic from "../../../assets/images/NewWebsite.png";
 import { ArrowForwardIos } from "@mui/icons-material";
