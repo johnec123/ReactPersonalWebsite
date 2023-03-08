@@ -1,7 +1,8 @@
 import React from "react";
+import Project from "../../../components/project";
 
 const WebsiteTwo: React.FC = () => {
-  return <div>WebsiteTwo</div>;
+  return <Project projectHeading="New Website"></Project>;
 };
 
 export default WebsiteTwo;

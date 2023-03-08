@@ -1,14 +1,8 @@
 import React from "react";
+import Project from "../../../components/project";
 
 const WebsiteOne: React.FC = () => {
-  return (
-    <div>
-      <div>FirstWebsite.................................</div>
-      <a href="https://master.d33cgn9c66twwy.amplifyapp.com/">
-        First Portfolio Website
-      </a>
-    </div>
-  );
+  return <Project projectHeading="First Wesbsite"></Project>;
 };
 
 export default WebsiteOne;
