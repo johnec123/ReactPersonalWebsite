@@ -1,0 +1,47 @@
+.me-wrapper > * {
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.imageMe {
+  min-height: 70vh;
+  max-height: 70vh;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.listItem li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+.funFacts li::before {
+  content: "\2708";
+}
+
+.skills li::before {
+  content: "\203A";
+}
+
+.me-wrapper :nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .me-wrapper :nth-child(odd) {
+    flex-direction: column;
+  }
+}

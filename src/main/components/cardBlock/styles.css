@@ -1,0 +1,48 @@
+.image img {
+  border-radius: 10%;
+  max-height: 60vh;
+  margin-bottom: 40px;
+  height: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardContent {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cardBlock {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header {
+  font-size: 70px;
+}
+
+.body {
+  font-size: 20px;
+}
+
+.cardBlock div:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .cardBlock {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  img {
+    max-width: 80vw;
+    height: auto;
+  }
+
+  .header {
+    font-size: 40px;
+  }
+}

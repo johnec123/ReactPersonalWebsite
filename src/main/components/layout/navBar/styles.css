@@ -1,0 +1,10 @@
+.navBar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBar-rightSide {
+  display: flex;
+  flex-direction: row;
+}

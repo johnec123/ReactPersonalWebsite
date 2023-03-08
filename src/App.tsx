@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
-import SiteUnderMaintenance from './siteUnderMaintenance';
+import React from "react";
+import "./App.css";
+import Layout from "./main/components/layout";
 
 function App() {
   return (
-    <SiteUnderMaintenance/>
+    <>
+      <Layout></Layout>
+    </>
   );
 }
 

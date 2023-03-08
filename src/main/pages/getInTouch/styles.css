@@ -1,0 +1,21 @@
+.getInTouch-aside {
+  width: 50%;
+}
+
+.getInTouch-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .getInTouch-wrapper {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .getInTouch-aside {
+    width: 100%;
+  }
+}
