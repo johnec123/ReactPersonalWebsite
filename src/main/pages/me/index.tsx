@@ -46,7 +46,7 @@ const Me: React.FC = () => {
                 local club since I was a child.
               </li>
               <li>
-                I'm a passionate crossfitter and have been hitting the box for
+                I'm a passionate crossfitter and have been hitting the gym for
                 the past 5 years.
               </li>
             </ul>
