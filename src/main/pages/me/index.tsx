@@ -12,7 +12,7 @@ const Me: React.FC = () => {
     //todo: update to map data
     <div className="me-wrapper list listItem">
       <CardBlock
-        headerText="How I got where we are now"
+        headerText="My Story"
         bodyText="My journey started with a passion for problem-solving. Growing up I was the 'Lego Kid', 
         always building something new. At the time, what I didn't realise was that this was the beginning 
         of my path to engineering. This passion, along with growing up on a dairy farm, having different 
