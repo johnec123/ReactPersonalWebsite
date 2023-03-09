@@ -1,0 +1,25 @@
+.summary {
+  display: flex;
+  align-items: center;
+}
+
+.techSummary {
+  display: flex;
+  width: 50vw;
+}
+
+.test {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.projects h1,
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}

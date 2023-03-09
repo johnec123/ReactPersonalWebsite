@@ -15,7 +15,7 @@ const ContactText: React.FC = () => {
           navigator.clipboard.writeText("johnecorry@gmail.com");
           Swal.fire("Copied to clipboard");
         }}
-        sx={{ color: "black" }}
+        sx={{ color: "black", textTransform: "lowercase" }}
       >
         johnecorry@gmail.com
       </Button>
